@@ -16,9 +16,9 @@ function CardArea() {
 
             </div>
             <div className="cards-area">
-                <MyCard />
-                <MyCard />
-                <MyCard />
+                <MyCard sensor="pH Sensor 1" pH={6.0} status={true}  />
+                <MyCard sensor="pH Sensor 2" pH={6.5} status={true}/>
+                <MyCard sensor="pH Sensor 3" pH={4.0} status={false}/>
             </div>
 
         </div>
