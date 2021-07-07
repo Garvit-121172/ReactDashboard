@@ -1,9 +1,15 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
 }
+
 .App {
+  text-align: center;
   display: flex;
+  flex-direction: column;
 }
 .sidebar {
   width: 73px;
@@ -67,6 +73,13 @@ body {
   padding-bottom: 20px;
   font-size: 25px;
   font-family: "Kanit", sans-serif;
+}
+.nav-cent {
+  justify-content: center;
+  border-bottom: 1.5px solid #ebebeb;
+  width: 97.5vw;
+  padding: 12px;
+  text-align: center;
 }
 .graph {
   padding-top: 30px;
@@ -239,4 +252,200 @@ ul li {
   text-align: center;
   padding-bottom: 0;
   height: 45px;
+}
+.tnc {
+  margin-top: 3px;
+  display: flex;
+  justify-content: center;
+  color: #626262;
+  font-size: 14px;
+}
+.signinform,
+.reset-pass-form,
+.trouble-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+}
+.hr-div {
+  display: flex;
+  margin-bottom: 20px;
+}
+.hr-div-trouble {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.hr-text {
+  width: 130px;
+  border: 0;
+  border-top: 1.4px solid #e2e2e2;
+  text-decoration: none;
+}
+.signinhead,
+.reset-pass-head,
+.trouble-signin-head {
+  margin-bottom: 10px;
+}
+.rememberme {
+  margin: 0;
+  display: flex;
+  margin-bottom: 15px;
+  /* background-color: #11d019; */
+}
+.rememberme p {
+  padding-top: 5px;
+  font-size: 13px;
+  padding-left: 3px;
+}
+
+.signincontainer,
+.signup-container,
+.reset-pass-container,
+.trouble-signin-container {
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+}
+.addphno-container {
+  margin-left: 355px;
+  margin-top: 110px;
+  width: 500px;
+  text-align: left;
+  padding: 20px;
+  padding-left: 22px;
+  border: 2.5px solid #ef4f23;
+  border-radius: 5px;
+  box-shadow: -25px 25px 10px #d2d2d2;
+}
+.onboard-container {
+  display: flex;
+}
+.onboard-left {
+  flex: 54%;
+  padding: 0px;
+}
+.onboard-right {
+  flex: 46%;
+  text-align: left;
+  padding-top: 3.5px;
+}
+.onboard-content {
+  width: 400px;
+  text-align: left;
+  padding: 1px;
+  padding-left: 2px;
+  padding-bottom: 1px;
+  margin-bottom: 2px;
+}
+.onboard-content-head {
+  font-size: 18px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+  font-weight: 900;
+  font-style: normal;
+}
+.onboard-content-body {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #5e5858;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.signin-btn,
+.reset-pass-btn,
+.signup-btn,
+.trouble-btn,
+.proceed-btn {
+  background-color: #ef4f23;
+  color: white;
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+}
+.proceed-btn {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.lets-get-started-btn {
+  background-color: #ef4f23;
+  color: white;
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 14px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.google-btn {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  /* background-color: red; */
+  padding: 10px;
+}
+.phno-div {
+  display: flex;
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.addphno-phno-div {
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 70%;
+  text-align: center;
+}
+.phno-inp {
+  padding: 10px;
+  padding-left: 12px;
+  border: 0;
+  width: 10px;
+  margin-left: 3px;
+  height: 22px;
+  flex: 50%;
+}
+
+.email-inp,
+.name-inp,
+.pass-inp,
+.reset-pass-inp,
+.trouble-inp {
+  padding: 10px;
+  padding-left: 12px;
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  /* background-color: #11d019; */
+}
+.forgot-div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }

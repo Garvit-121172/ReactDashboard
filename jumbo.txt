@@ -1,0 +1,12 @@
+{/* <div >
+        <SideBar  />
+      </div>
+      <div>
+        <NavBar />
+      <Switch>
+          <Route exact path="/" component={MainArea} />
+          <Route exact path="/control" component={Control} />
+          <Route exact path="/report" component={Report} />
+        </Switch>
+      </div> 
+      */}
