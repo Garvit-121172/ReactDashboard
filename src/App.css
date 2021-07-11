@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .App {
@@ -11,8 +11,15 @@ body {
   display: flex;
   flex-direction: column;
 }
+.app-deeper {
+  display: flex;
+}
+.app-setup {
+  display: felx;
+  flex-direction: column;
+}
 .sidebar {
-  width: 73px;
+  width: 67px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,45 +41,11 @@ body {
   color: #ef4f23;
 }
 .navbar {
-  padding-top: 10px;
-  padding-bottom: 5px;
-  width: 94vw;
-  height: 50px;
+  padding: 5px;
+  width: 93.5vw;
+  height: 40px;
   display: flex;
   border-bottom: 2px solid #f6f6f6;
-}
-.nav-logo {
-  padding: 15px;
-  margin-left: 80px;
-  flex: 20%;
-  margin-top: 10px;
-}
-
-.nav-side {
-  margin-left: 900px;
-  display: flex;
-  flex: 90%;
-  padding: 15px;
-}
-.nav-bell {
-  margin-right: 1px;
-  padding: 10px;
-  padding-top: 1px;
-  padding-right: 1px;
-
-  float: right;
-}
-.user-name {
-  padding-left: 20px;
-  background-color: #ffdbce;
-  color: #ef4f23;
-  padding: 15px;
-  height: 15px;
-  margin-left: 10px;
-  padding-top: 1px;
-  padding-bottom: 20px;
-  font-size: 25px;
-  font-family: "Kanit", sans-serif;
 }
 .nav-cent {
   justify-content: center;
@@ -80,6 +53,35 @@ body {
   width: 97.5vw;
   padding: 10px;
   text-align: center;
+}
+
+.nav-logo {
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.nav-side {
+  margin-left: 900px;
+  display: flex;
+  padding: 6px;
+}
+.nav-bell {
+  margin-right: 1px;
+  padding: 10px;
+  padding-top: 1px;
+  padding-right: 1px;
+  font-size: small;
+}
+.user-name {
+  background-color: #ffdbce;
+  color: #ef4f23;
+  height: 25px;
+  margin-top: 1px;
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: "Kanit", sans-serif;
+  width: 25px;
+  height: 25px;
 }
 .graph {
   padding-top: 30px;
@@ -253,8 +255,17 @@ ul li {
   padding-bottom: 0;
   height: 45px;
 }
-.tnc {
+/* .tnc {
   margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  color: #626262;
+  font-size: 14px;
+  font-weight: 400;
+} */
+.tnc-signup {
+  /* background-color: #11d019; */
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   color: #626262;
@@ -262,7 +273,7 @@ ul li {
   font-weight: 400;
 }
 .tnc-signin {
-  margin-top: 25px;
+  margin-top: 29px;
   display: flex;
   justify-content: center;
   color: #626262;
@@ -277,7 +288,7 @@ ul li {
   justify-content: space-between;
   width: 300px;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 18px;
   padding: 10px;
 }
 .signup-form {
@@ -320,7 +331,10 @@ ul li {
   font-size: 13px;
   padding-left: 3px;
 }
-
+.link {
+  text-decoration: none;
+  color: #ff0404;
+}
 .signincontainer,
 .signup-container,
 .reset-pass-container,
@@ -333,16 +347,17 @@ ul li {
   margin-left: 355px;
   margin-top: 110px;
   width: 500px;
-  text-align: left;
   padding: 20px;
-  padding-left: 22px;
+  text-align: left;
+  padding-left: 26px;
   border: 2.5px solid #ef4f23;
   border-radius: 5px;
-  box-shadow: -25px 25px 10px #d2d2d2;
+  padding-top: 10px;
 }
 .onboard-container {
   display: flex;
   margin-top: 5px;
+  margin-left: 40px;
 }
 .onboard-left {
   flex: 54%;
@@ -427,7 +442,7 @@ ul li {
   margin-bottom: 15px;
   display: flex;
   flex-wrap: nowrap;
-  width: 70%;
+  width: 67%;
   text-align: center;
 }
 .phno-inp {

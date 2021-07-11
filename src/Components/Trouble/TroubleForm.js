@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 function TroubleForm() {
     const [email, setemail] = useState("");
     return (
@@ -9,9 +10,7 @@ function TroubleForm() {
             <div className="hr-div-trouble">
             <hr class="hr-text" /><span>or</span> <hr class="hr-text" />
             </div>
-            <p style={{fontSize:"14px",margin:"0",marginTop:"6px",color:"#ef4f23",fontWeight:"bold"}}>Create an account</p>
-
-              
+            <Link className="link" ><p style={{fontSize:"13px",margin:"0",marginTop:"6px",color:"#ef4f23",fontWeight:"500"}}>Create an account</p></Link>
         </div>
     )
 }

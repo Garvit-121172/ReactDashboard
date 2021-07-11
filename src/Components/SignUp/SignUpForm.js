@@ -26,7 +26,7 @@ function SignUpForm() {
             <input onChange={(e)=>setpass(e.target.value)} className="pass-inp" type="password" value={pass} placeholder="Password" autoComplete={false}/>
             <input onChange={(e)=>setpassConfirm(e.target.value)} className="pass-inp" type="password" value={passConfirm} placeholder="Confirm Password" autoComplete={false}/>
             <button className="signup-btn">Sign Up</button>
-            <TnC/>
+            <div className="tnc-signup" ><TnC/></div>
 
 
         
