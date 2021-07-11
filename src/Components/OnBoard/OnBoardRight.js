@@ -12,7 +12,7 @@ function OnBoardRight() {
 
     return (
         <div className="onboard-right" >
-        <h2 style={{marginBottom:"20px"}}>Welcome,[Firstname,Lastname]</h2>
+        <h2 style={{marginBottom:"20px",fontWeight:"400"}}>Welcome,[Firstname,Lastname]</h2>
         <Content head={h1} body={p1}/>
         <Content head={h2} body={p2}/>
         <Content head={h3} body={p3}/>

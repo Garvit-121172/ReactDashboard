@@ -78,7 +78,7 @@ body {
   justify-content: center;
   border-bottom: 1.5px solid #ebebeb;
   width: 97.5vw;
-  padding: 12px;
+  padding: 10px;
   text-align: center;
 }
 .graph {
@@ -254,11 +254,20 @@ ul li {
   height: 45px;
 }
 .tnc {
-  margin-top: 3px;
+  margin-top: 45px;
   display: flex;
   justify-content: center;
   color: #626262;
   font-size: 14px;
+  font-weight: 400;
+}
+.tnc-signin {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  color: #626262;
+  font-size: 14px;
+  font-weight: 400;
 }
 .signinform,
 .reset-pass-form,
@@ -282,7 +291,7 @@ ul li {
 }
 .hr-div {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .hr-div-trouble {
   display: flex;
@@ -318,7 +327,7 @@ ul li {
 .trouble-signin-container {
   width: 40%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .addphno-container {
   margin-left: 355px;
@@ -333,6 +342,7 @@ ul li {
 }
 .onboard-container {
   display: flex;
+  margin-top: 5px;
 }
 .onboard-left {
   flex: 54%;
@@ -353,16 +363,17 @@ ul li {
 }
 .onboard-content-head {
   font-size: 18px;
+  line-height: 20px;
   margin-bottom: 0px;
   padding-bottom: 0;
-  font-weight: 900;
+  font-weight: 400;
   font-style: normal;
 }
 .onboard-content-body {
   margin-top: 8px;
   font-size: 14px;
   color: #5e5858;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 15px;
 }
 .signin-btn,
@@ -400,10 +411,9 @@ ul li {
 .google-btn {
   display: flex;
   margin: 0;
-  padding: 0;
   justify-content: center;
-  /* background-color: red; */
-  padding: 10px;
+  padding: 4px;
+  padding-left: 25px;
 }
 .phno-div {
   display: flex;
@@ -426,7 +436,7 @@ ul li {
   border: 0;
   width: 10px;
   margin-left: 3px;
-  height: 22px;
+  height: 18px;
   flex: 50%;
 }
 
@@ -440,7 +450,6 @@ ul li {
   border: 1px solid #b6b6b6;
   border-radius: 5px;
   margin-bottom: 15px;
-  /* background-color: #11d019; */
 }
 .forgot-div {
   margin-top: 10px;
