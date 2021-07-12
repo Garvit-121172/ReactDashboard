@@ -19,13 +19,18 @@ body {
   flex-direction: column;
 }
 .sidebar {
-  width: 67px;
+  width: 60px;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-right: 0;
+  /* display: flex; */
+  /* flex-direction: column; */
   border-right: 2px solid #f6f6f6;
+  padding: 0;
+}
+.sidebar ul li {
+  background-color: #5e5858;
+  padding: 0;
+  margin-bottom: 15px;
+  margin-right: -10px;
 }
 .side-icon {
   color: #b1b1b1;
@@ -39,6 +44,13 @@ body {
 .side-icon:hover {
   background-color: #ffdbce;
   color: #ef4f23;
+}
+.sidebar-list {
+  margin-top: 210px;
+  margin-right: 0;
+}
+.list-item {
+  background-color: yellow;
 }
 .navbar {
   padding: 5px;
@@ -100,6 +112,7 @@ body {
 }
 .active {
   color: #ef4f23;
+  background-color: aqua;
 }
 
 .card-sec {
@@ -357,16 +370,19 @@ ul li {
 .onboard-container {
   display: flex;
   margin-top: 5px;
-  margin-left: 40px;
+  margin-left: 5px;
 }
 .onboard-left {
-  flex: 54%;
-  padding: 0px;
+  flex: 40%;
+  padding-left: 45px;
+  padding-top: 50px;
 }
 .onboard-right {
   flex: 46%;
   text-align: left;
-  padding-top: 3.5px;
+  padding-top: 15px;
+  padding-left: 140px;
+  padding-right: 0;
 }
 .onboard-content {
   width: 400px;
@@ -375,6 +391,7 @@ ul li {
   padding-left: 2px;
   padding-bottom: 1px;
   margin-bottom: 2px;
+  margin-top: 10px;
 }
 .onboard-content-head {
   font-size: 18px;
