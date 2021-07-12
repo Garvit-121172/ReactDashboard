@@ -5,7 +5,7 @@ import NavBar from './Components/Misc/NavBar'
 // import {Route,Switch} from 'react-router-dom';
 // import Control from './Components/Control';
 // import Report from './Components/Report';
-// /import NavBarCent from './Components/NavBarCent';
+import NavBarCent from './Components/NavBarCent';
 import SigninContainer from './Components/SignIn/SigninContainer';
 import ResetPassContainer from './Components/Reset/ResetPassContainer';
 import TroubleSignInCont from './Components/Trouble/TroubleSignInCont';
@@ -21,8 +21,6 @@ function App() {
        <NavBar/>
       <OnBoardContainer/>
        </div>
-
-
      </div>
       {/* <NavBarCent/> */}
       {/* <NavBar/> */}

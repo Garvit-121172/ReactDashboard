@@ -12,11 +12,11 @@ function SignInForm() {
 
     return (
         <>
-        {gauth_err?<p style={{margin:"0",marginTop:"15px",fontSize:"12px",fontStyle:"normal",color:"#FF0404",height:"19px",lineHeight:"19px",fontWeight:"400"}}>This account can be signed in using “Google” or resetting the password using <Link className="link"><b >Forgot Password</b></Link></p>
+        {gauth_err?<p style={{margin:"0",marginTop:"15px",fontSize:"12px",fontStyle:"normal",color:"#FF0404",height:"19px",lineHeight:"19px",fontWeight:"400"}}>This account can be signed in using “Google” or resetting the password using <Link className="link"><b > Forgot Password</b></Link></p>
             :null }
-        {nouser_err?<p style={{margin:"0",marginTop:"15px",fontSize:"12px",fontStyle:"normal",color:"#FF0404",height:"19px",lineHeight:"19px",fontWeight:"400"}}>The email address that you've entered doesn't match any account.<Link className="link"><b >Sign up for an account.</b></Link></p>
+        {nouser_err?<p style={{margin:"0",marginTop:"15px",fontSize:"12px",fontStyle:"normal",color:"#FF0404",height:"19px",lineHeight:"19px",fontWeight:"400"}}>The email address that you've entered doesn't match any account.<Link className="link"><b > Sign up for an account.</b></Link></p>
             :null }
-        {pass_err?<p style={{margin:"0",marginTop:"15px",fontSize:"12px",fontStyle:"normal",color:"#FF0404",height:"19px",lineHeight:"19px",fontWeight:"400"}}>The password that you've entered is incorrect.<Link className="link"><b  >Forgotten password?</b></Link></p>
+        {pass_err?<p style={{margin:"0",marginTop:"15px",fontSize:"12px",fontStyle:"normal",color:"#FF0404",height:"19px",lineHeight:"19px",fontWeight:"400"}}>The password that you've entered is incorrect.<Link className="link"><b  > Forgotten password?</b></Link></p>
             :null }
         <div className="signinform">
             
