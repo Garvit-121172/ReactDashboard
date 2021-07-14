@@ -44,7 +44,7 @@ function GraphArea() {
         <div className="graph-sec">
             <div className="graph-sec-title">
                 <div className="graph-sec-heading">
-                    <h2>Analtyics</h2>
+                    <p>Analtyics</p>
                 </div>
             </div>
             <div className="graph">

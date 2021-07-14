@@ -10,3 +10,10 @@
         </Switch>
       </div> 
       */}
+
+
+
+          <li><NavLink exact activeClassName="active" to="/" > <HomeLogo /></NavLink><div className="logo-name" >Home</div></li>
+                <li><NavLink exact activeClassName="active" to="/control"><DevicesLogo/> </NavLink> <div className="logo-name">Controls</div></li>
+                <li><NavLink exact activeClassName="active" to="/report"><FrameLogo/></NavLink><div className="logo-name">Reports</div></li>
+            

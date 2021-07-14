@@ -5,15 +5,15 @@ function CardArea() {
         <div className="card-sec">
             <div className="card-sec-title">
                 <div className="card-sec-heading">
-                    <h2>Devices</h2>
+                    <h2 style={{margin:"0",padding:"0",fontSize:"18px"}} >Devices</h2>
                 </div>
                 <div className="card-sec-btn">
                     <button style={{
-                        marginLeft: "200px",
-                        backgroundColor: "#FFDBCE", color: "#EF4F23", border: "0", padding: "5px"
-                    }}>+Add DEvice</button>
+                        marginLeft: "190px",
+                        borderRadius:"3px",
+                        backgroundColor: "#FFDBCE", color: "#EF4F23", border: "0", padding: "7px",paddingLeft:"12px",fontWeight:"500"
+                    }}><b>+ Add Device</b></button>
                 </div>
-
             </div>
             <div className="cards-area">
                 <MyCard sensor="pH Sensor 1" pH={6.0} status={true}  />
