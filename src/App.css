@@ -239,7 +239,6 @@ body {
   padding: 30px;
   margin-left: 147px;
 }
-
 .card-head {
   display: flex;
   margin-bottom: 0;
@@ -254,13 +253,23 @@ body {
   padding-bottom: 0;
   margin-left: 13px;
 }
+.card {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+}
 .cards-area {
+  padding-top: 10px;
   padding-left: 10px;
   overflow-y: scroll;
   display: flex;
   flex-wrap: wrap;
-  /* background-color: #3a3a3a; */
   width: 550px;
+  height: 410px;
 }
 .cards-area::-webkit-scrollbar {
   width: 10px;
@@ -555,20 +564,46 @@ ul li {
   font-weight: 500;
   margin-left: 10px;
 }
+.add-device-btn-con {
+  flex: 48%;
+  background-color: #b1b1b1;
+  color: #ffffff;
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.add-device-btn-suc {
+  flex: 98%;
+  background-color: #ef4f23;
+  color: #ffffff;
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  margin-top: 50px;
+}
 .add-device-btn1 {
   flex: 48%;
   color: #ef4f23;
   background-color: white;
-  border: 1px solid #b6b6b6;
+  border: 1.5px solid #ef4f23;
   border-radius: 5px;
   cursor: pointer;
   font-size: 14px;
   line-height: 16px;
   font-weight: 500;
+  padding: 10px;
 }
 .add-dev-container {
   flex: 50%;
-  /* margin-left: 20px; */
   padding-left: 20px;
 }
 .add-dev-head {
@@ -578,22 +613,29 @@ ul li {
   font-size: 18px;
   font-weight: 500;
   width: 395px;
+  margin-bottom: 5px;
+}
+.connecting {
+  margin-left: 165px;
 }
 .add-dev-container-inside {
-  height: 400px;
-  width: 350px;
+  height: 390px;
+  width: 330px;
   display: flex;
   flex-direction: column;
   text-align: left;
-  border: 1px solid #3a3a3a;
+  border: 1.5px solid #d0d0d0;
   margin-left: 0px;
-  padding: 20px;
-  padding-bottom: 0;
+  padding: 15px;
 }
 .add-dev-top-area {
-  width: 350px;
-  background-color: #ef4f23;
-  height: 145px;
+  width: 320px;
+  padding: 15px;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffeee7;
+  height: 140px;
+  margin-bottom: 0;
 }
 .add-dev-cent {
   justify-content: center;
@@ -604,4 +646,14 @@ ul li {
   display: flex;
   justify-content: space-evenly;
   /* height: 40px; */
+}
+.color-list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 70px;
+  border: 1px solid #dddddd;
+  padding: 5px;
+  padding-left: 1px;
 }
