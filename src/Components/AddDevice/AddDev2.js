@@ -16,7 +16,7 @@ function AddDev2() {
          </div>
          {pallete?<div className="color-list"> <input style={{borderRadius:"4px",border:"0",backgroundColor:"#FFEEE7",height:"25px",fontSize:"20px",fontWeight:"400",textAlign:"center",width:"25px"}}/> <input style={{borderRadius:"4px",border:"0",backgroundColor:"#B2E4FF",height:"25px",fontSize:"20px",fontWeight:"400",textAlign:"center",width:"25px",marginLeft:"7px"}}/> <input style={{borderRadius:"4px",border:"0",backgroundColor:"#B6FFB9",height:"25px",fontSize:"20px",fontWeight:"400",textAlign:"center",width:"25px",marginLeft:"7px"}} /><input style={{borderRadius:"4px",border:"0",backgroundColor:"#FFF2AE",height:"25px",fontSize:"20px",fontWeight:"400",textAlign:"center",width:"25px",marginLeft:"7px"}}/></div>:null}
         </div>
-        <div className="add-device-2-btn-area">
+        <div className={pallete?"add-device-2-btn-area":"add-device-3-btn-area"}>
         <button className="add-device-btn1">Cancel</button>
         <button className="add-device-btn2">Next</button>
              

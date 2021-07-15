@@ -3,7 +3,7 @@ import Connecting from './Connecting'
 import Tick from './Tick'
 import { useState } from 'react'
 function ConnectingPage() {
-    const [connecting, setconnecting] = useState(true)
+    const [connecting, setconnecting] = useState(false)
     return (
         <div className="add-dev-con">
         <div className="add-dev-head">Add Devices</div>
@@ -11,6 +11,10 @@ function ConnectingPage() {
         <div className="add-dev-top-area">
             <img src="" alt="asd"/> <div style={{backgroundColor:"#fdd6ca",border:"2px dashed #ef4f23",height:"20px",width:"120px",margin:"auto",marginTop:"10px"}}>ASDS-0-10</div>
        </div>
+       {connecting?<p style={{fontSize:"14px",fontWeight:"400",textAlign:"center",color:"#B1B1B1"}} >Make sure your device is turned on</p>
+       :<p style={{fontSize:"14px",fontWeight:"400",textAlign:"center",color:"#B1B1B1"}} >Turn to the back of the device to find the product ID</p>
+       }
+        
         <div className="add-dev-cent">
          {connecting?<div><p style={{fontSize:"16px",textAlign:"center",marginBottom:"15px",fontWeight:"500"}}>Connecting</p><Connecting/></div>:
          <div> <p style={{fontSize:"16px",textAlign:"center",marginBottom:"15px",fontWeight:"500"}}>Enter Product ID</p><input style={{borderRadius:"4px",border:"0",backgroundColor:"#EBEBEB",height:"35px",fontSize:"20px",fontWeight:"400",textAlign:"center",width:"180px",marginLeft:"90px"}} placeholder={"ASDS-0-00"}/>

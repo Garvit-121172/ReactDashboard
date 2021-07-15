@@ -641,7 +641,11 @@ ul li {
   justify-content: center;
   padding-top: 5px;
 }
-
+.add-device-3-btn-area {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-evenly;
+}
 .add-device-1-btn-area {
   margin-top: 45px;
   display: flex;

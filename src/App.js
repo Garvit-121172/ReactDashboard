@@ -1,7 +1,7 @@
 import './App.css'
 import SideBar from './Components/Misc/SideBar'
 import NavBar from './Components/Misc/NavBar'
-import MainArea from './Components/Misc/MainArea';
+import MainArea from './Components/Misc/CardArea/MainArea';
 // import {Route,Switch} from 'react-router-dom';
 // import Control from './Components/Control';
 // import Report from './Components/Report';
