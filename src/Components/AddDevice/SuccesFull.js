@@ -3,7 +3,6 @@ import BigTick from './BigTick'
 function SuccesFull() {
     return (
         <div className="add-dev-suc">
-        <div className="add-dev-container">
         <div className="add-dev-head">Add Devices</div>
         <div className="add-dev-container-inside">
            
@@ -12,12 +11,10 @@ function SuccesFull() {
         <div style={{margin:"auto",textAlign:"center",marginTop:"100px"}}><BigTick/><p>Succesful</p><p style={{fontSize:"14px"}}>Your device has been added successfully</p></div>
         </div>
         <div className="add-device-1-btn-area">
-                <button className="add-device-btn-suc">Next</button>
+                <button className="add-device-btn-suc" style={{marginTop:"50px"}}>Next</button>
 
             </div>
-        </div>
-        </div>
-            
+        </div>    
         </div>
     )
 }
