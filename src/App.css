@@ -545,19 +545,44 @@ ul li {
   padding-left: 20px;
   margin: auto;
 }
-.setpH,
-.config-wifi {
-  height: 180px;
-  width: 310px;
-  background-color: #11d019;
+.alarm-alert {
+  border: 1px solid #dddddd;
+  height: 130px;
+  width: 290px;
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
+  margin-top: 23px;
   padding: 15px;
-  padding-left: 20px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+.confirm-alert {
+  border: 1px solid #dddddd;
+  height: 130px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 23px;
+  padding: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+.setpH {
+  border: 1px solid #dddddd;
+  height: 150px;
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 23px;
+  padding: 15px;
+  padding-left: 15px;
+  padding-bottom: 20px;
 }
 .config-wifi {
-  padding: 10px;
+  border: 1px solid #dddddd;
+  width: 350px;
+  margin-top: 23px;
+  padding: 15px;
   text-align: left;
   height: 250px;
 }
@@ -566,7 +591,7 @@ ul li {
   font-weight: 500;
 }
 .config-wifi li {
-  padding-bottom: 15px;
+  margin-bottom: 18px;
   font-size: 14px;
   font-weight: 400;
 }
@@ -589,8 +614,19 @@ ul li {
   font-weight: 500;
   margin-left: 10px;
 }
-.add-device-btn-con,
-.control-btns {
+.confirm-alert-btn {
+  background-color: #ef4f23;
+  color: white;
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 20px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.add-device-btn-con {
   flex: 48%;
   background-color: #b1b1b1;
   color: #ffffff;
@@ -602,6 +638,35 @@ ul li {
   line-height: 16px;
   font-weight: 500;
   margin-left: 10px;
+}
+.control-btns {
+  flex: 49%;
+  background-color: #f0f0f0;
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+  padding: 1px;
+  width: 155px;
+  height: 37px;
+}
+.control-btns1 {
+  flex: 48%;
+  background-color: #6b6b6b;
+  border: 1px solid #b6b6b6;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+  padding: 1px;
+  width: 155px;
+  height: 37px;
 }
 .add-device-btn-suc {
   flex: 98%;
@@ -697,24 +762,27 @@ ul li {
 .status-grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #3a3a3a;
 }
 .grid-item {
-  border: 1px solid black;
-  width: 190px;
-  height: 50px;
-  background-color: #11d019;
+  border: 1px solid #dddddd;
+  width: 192px;
+  height: 60px;
+}
+.grid-content {
+  margin-left: 10px;
+  display: flex;
 }
 .control-btn-tray {
-  margin-top: 10px;
+  margin-top: 27px;
   display: flex;
-  justify-content: space-evenly;
+  width: 590px;
+  margin-left: -10px;
 }
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 52px;
+  height: 28px;
 }
 
 .switch input {
@@ -731,24 +799,26 @@ ul li {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  /* -webkit-transition: 0.4s; */
+  -webkit-transition: 0.4s;
   transition: 0.4s;
+  border-radius: 5px;
 }
 
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
+  height: 22px;
+  width: 22px;
+  left: 2px;
+  bottom: 3.5px;
   background-color: white;
-  /* -webkit-transition: 0.4s; */
+  -webkit-transition: 0.4s;
   transition: 0.4s;
+  border-radius: 5px;
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: #ef4f23;
 }
 
 input:focus + .slider {

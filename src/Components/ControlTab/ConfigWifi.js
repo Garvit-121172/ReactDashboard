@@ -3,7 +3,7 @@ import React from 'react'
 function ConfigWifi() {
     return (
         <div className="config-wifi">
-            <p style={{marginLeft:"20px",marginBottom:"0"}}>Follow the steps to configure Wifi</p>
+            <p style={{marginLeft:"26px",marginBottom:"5px"}}>Follow the steps to configure Wifi</p>
             <ol>
                 <li>  Go to your network settings</li>
                 <li>  Connect to the Device’s Wi-Fi Network</li>
