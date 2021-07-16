@@ -73,9 +73,9 @@ function StatusGrid() {
         <button className="control-btns">Sample's Report</button>
         <button className="control-btns"> Factory Reset </button>
          </div>
-         <AlarmAlert/>
+         {/* <AlarmAlert/>
          <ConfirmAlert/>
-         <ConfigWifi/>
+         <ConfigWifi/> */}
          <SetpH/>
         </div>
         // </div>

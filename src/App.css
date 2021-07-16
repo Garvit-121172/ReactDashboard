@@ -547,14 +547,25 @@ ul li {
 }
 .alarm-alert {
   border: 1px solid #dddddd;
-  height: 130px;
-  width: 290px;
+  height: 160px;
+  width: 280px;
   display: flex;
   flex-direction: column;
   margin-top: 23px;
   padding: 15px;
-  padding-left: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.alarm-alert-btn {
+  margin-top: 20px;
+  color: #ef4f23;
+  background-color: white;
+  border: 1.5px solid #ef4f23;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  padding: 10px;
 }
 .confirm-alert {
   border: 1px solid #dddddd;
@@ -617,7 +628,7 @@ ul li {
 .confirm-alert-btn {
   background-color: #ef4f23;
   color: white;
-  border: 1px solid #b6b6b6;
+  border: 0;
   border-radius: 5px;
   cursor: pointer;
   padding: 5px 20px;
@@ -630,7 +641,7 @@ ul li {
   flex: 48%;
   background-color: #b1b1b1;
   color: #ffffff;
-  border: 1px solid #b6b6b6;
+  border: 0px solid #b6b6b6;
   border-radius: 5px;
   cursor: pointer;
   padding: 5px;
@@ -642,7 +653,7 @@ ul li {
 .control-btns {
   flex: 49%;
   background-color: #f0f0f0;
-  border: 1px solid #b6b6b6;
+  border: 0;
   border-radius: 5px;
   cursor: pointer;
   font-size: 14px;
@@ -656,7 +667,7 @@ ul li {
 .control-btns1 {
   flex: 48%;
   background-color: #6b6b6b;
-  border: 1px solid #b6b6b6;
+  border: 0px solid #b6b6b6;
   color: #ffffff;
   border-radius: 5px;
   cursor: pointer;
@@ -672,7 +683,7 @@ ul li {
   flex: 98%;
   background-color: #ef4f23;
   color: #ffffff;
-  border: 1px solid #b6b6b6;
+  border: 0px solid #b6b6b6;
   border-radius: 5px;
   cursor: pointer;
   padding: 5px;
@@ -810,7 +821,7 @@ ul li {
   height: 22px;
   width: 22px;
   left: 2px;
-  bottom: 3.5px;
+  bottom: 3px;
   background-color: white;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -826,7 +837,7 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  /* -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px); */
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
