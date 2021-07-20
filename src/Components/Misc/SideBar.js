@@ -7,9 +7,9 @@ function SideBar() {
     return (
         <div className="sidebar">
             <div className="sidebar-list">
-            <div className="list-item"><NavLink exact activeClassName="active" to="/" style={{ textDecoration:"none"}}> <div className="icon-box" ><HomeLogo /><div className="logo-name" >Home</div></div></NavLink></div>
-            <div className="list-item"><NavLink exact activeClassName="active" to="/control" style={{ textDecoration:"none"}} ><div className="icon-box"><DevicesLogo/><div className="logo-name" >Controls</div></div></NavLink></div>
-            <div className="list-item"><NavLink exact activeClassName="active" to="/report" style={{ textDecoration:"none"}}><div className="icon-box" ><FrameLogo/><div className="logo-name" >Reports</div></div></NavLink></div>
+            <div className="list-item"><NavLink exact activeClassName="active" to="/home" style={{ textDecoration:"none"}}> <div className="icon-box" ><HomeLogo /><div className="logo-name" >Home</div></div></NavLink></div>
+            <div className="list-item"><NavLink exact activeClassName="active" to="/controls" style={{ textDecoration:"none"}} ><div className="icon-box"><DevicesLogo/><div className="logo-name" >Controls</div></div></NavLink></div>
+            <div className="list-item"><NavLink exact activeClassName="active" to="/reports" style={{ textDecoration:"none"}}><div className="icon-box" ><FrameLogo/><div className="logo-name" >Reports</div></div></NavLink></div>
             </div>
         </div>
     )

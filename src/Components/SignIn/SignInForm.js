@@ -6,17 +6,17 @@ import { Link } from 'react-router-dom';
 function SignInForm() {
     const [mail,setmail]= useState();
     const [pass,setpass]= useState();
-    const [gauth_err, setgauth_err] = useState(false);
-    const [nouser_err, setnouser_err] = useState(false)
+    const [gauth_err, setgauth_err] = useState(true);
+    const [nouser_err, setnouser_err] = useState(true)
     const [pass_err, setpass_err] = useState(true)
 
     return (
         <>
-        {gauth_err?<p style={{margin:"0",marginTop:"15px",fontSize:"12px",fontStyle:"normal",color:"#FF0404",height:"19px",lineHeight:"19px",fontWeight:"400"}}>This account can be signed in using “Google” or resetting the password using <Link className="link"><b > Forgot Password</b></Link></p>
+        {gauth_err?<p style={{margin:"0",marginTop:"15px",fontSize:"12px",fontStyle:"normal",color:"#FF0404",height:"19px",lineHeight:"19px",fontWeight:"400"}}>This account can be signed in using “Google” or resetting the password using <Link className="link" to="/forgot"><b > Forgot Password</b></Link></p>
             :null }
-        {nouser_err?<p style={{margin:"0",marginTop:"15px",fontSize:"12px",fontStyle:"normal",color:"#FF0404",height:"19px",lineHeight:"19px",fontWeight:"400"}}>The email address that you've entered doesn't match any account.<Link className="link"><b > Sign up for an account.</b></Link></p>
+        {nouser_err?<p style={{margin:"0",marginTop:"15px",fontSize:"12px",fontStyle:"normal",color:"#FF0404",height:"19px",lineHeight:"19px",fontWeight:"400"}}>The email address that you've entered doesn't match any account.<Link className="link" to="/signup"><b > Sign up for an account.</b></Link></p>
             :null }
-        {pass_err?<p style={{margin:"0",marginTop:"15px",fontSize:"12px",fontStyle:"normal",color:"#FF0404",height:"19px",lineHeight:"19px",fontWeight:"400"}}>The password that you've entered is incorrect.<Link className="link"><b  > Forgotten password?</b></Link></p>
+        {pass_err?<p style={{margin:"0",marginTop:"15px",fontSize:"12px",fontStyle:"normal",color:"#FF0404",height:"19px",lineHeight:"19px",fontWeight:"400"}}>The password that you've entered is incorrect.<Link className="link" to="/forgot"><b> Forgotten password?</b></Link></p>
             :null }
         <div className="signinform">
             
@@ -30,7 +30,7 @@ function SignInForm() {
             <button className="signin-btn">Sign In</button>
             <div className="forgot-div">
             <p style={{fontSize:"14px",fontWeight:"400",margin:"0",color:"#626262",marginTop:"5px"}}>Forgot your password?</p>
-            <p style={{fontSize:"14px",fontWeight:"400",margin:"0",marginTop:"6px",color:"#ef4f23"}}>Create an account</p>
+            <Link to="/signup" style={{textDecoration:"none"}}><p style={{fontSize:"14px",fontWeight:"400",margin:"0",marginTop:"6px",color:"#ef4f23"}}>Create an account</p></Link>
             </div>
             <div className="tnc-signin" ><TnC/></div>
         </div>

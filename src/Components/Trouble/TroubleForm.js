@@ -10,7 +10,7 @@ function TroubleForm() {
             <div className="hr-div-trouble">
             <hr class="hr-text" /><span>or</span> <hr class="hr-text" />
             </div>
-            <Link className="link" ><p style={{fontSize:"13px",margin:"0",marginTop:"6px",color:"#ef4f23",fontWeight:"500"}}>Create an account</p></Link>
+            <Link className="link" to="/signup" ><p style={{fontSize:"13px",margin:"0",marginTop:"6px",color:"#ef4f23",fontWeight:"500"}}>Create an account</p></Link>
         </div>
     )
 }

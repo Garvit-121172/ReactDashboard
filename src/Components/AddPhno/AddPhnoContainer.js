@@ -1,9 +1,12 @@
 import React from 'react'
 import { useState } from 'react';
+import NavBarCent from '../NavBarCent';
 function AddPhnoContainer() {
     const [phno, setphno] = useState("");
     const [err, seterr] = useState(true);
     return (
+        <>
+        <NavBarCent/>
         <div className="addphno-container" >
             <h3 style={{fontSize:"18px",lineHeight:"23px"}}>Add a Phone Number</h3>
             <p style={{textAlign:"left",marginBottom:"25px",fontSize:"14px",color:"#5E5858",lineHeight:"17px",fontWeight:"400"}} >Your phone number helps us keep your account secure by adding an additional layer of verification. It also helps to keep your regularly updated with your data on the dashboard, notifying you and alerting you. You can always stay connected with us and our products.</p>
@@ -16,6 +19,7 @@ function AddPhnoContainer() {
             <button className="proceed-btn"><span style={{fontWeight:"400",fontSize:"13px",padding:"20px"}}>Let's Proceed</span></button>
 
         </div>
+        </>
     )
 }
   
