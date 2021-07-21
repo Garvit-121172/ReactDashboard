@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.307aa9ee.chunk.css",
+    "main.js": "/static/js/main.aa5fb828.chunk.js",
+    "main.js.map": "/static/js/main.aa5fb828.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c788acf2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c788acf2.js.map",
+    "static/js/2.87e9f5f8.chunk.js": "/static/js/2.87e9f5f8.chunk.js",
+    "static/js/2.87e9f5f8.chunk.js.map": "/static/js/2.87e9f5f8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.307aa9ee.chunk.css.map": "/static/css/main.307aa9ee.chunk.css.map",
+    "static/js/2.87e9f5f8.chunk.js.LICENSE.txt": "/static/js/2.87e9f5f8.chunk.js.LICENSE.txt",
+    "static/media/CalendarLogo.5390b549.svg": "/static/media/CalendarLogo.5390b549.svg",
+    "static/media/ConditionLogo.964a990c.svg": "/static/media/ConditionLogo.964a990c.svg",
+    "static/media/Glogo.3b44a32b.png": "/static/media/Glogo.3b44a32b.png",
+    "static/media/Logo.5c5d351a.svg": "/static/media/Logo.5c5d351a.svg",
+    "static/media/OnBoardLeft.02ebe999.svg": "/static/media/OnBoardLeft.02ebe999.svg",
+    "static/media/ProductLogo.bc1f6efa.svg": "/static/media/ProductLogo.bc1f6efa.svg",
+    "static/media/StatusLogo.029e62a6.svg": "/static/media/StatusLogo.029e62a6.svg",
+    "static/media/WifiLogo.602ce92e.svg": "/static/media/WifiLogo.602ce92e.svg",
+    "static/media/pHLogo.77d4ece9.svg": "/static/media/pHLogo.77d4ece9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c788acf2.js",
+    "static/js/2.87e9f5f8.chunk.js",
+    "static/css/main.307aa9ee.chunk.css",
+    "static/js/main.aa5fb828.chunk.js"
+  ]
+}
