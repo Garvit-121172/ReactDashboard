@@ -6,7 +6,6 @@ function Controls() {
     return (
         <div className="main-area">
             <CardArea />
-
             <StatusGrid/>
             
         </div>

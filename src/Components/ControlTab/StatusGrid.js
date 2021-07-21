@@ -9,7 +9,13 @@ import WifiLogo from "./../../WifiLogo.svg"
 import CalendarLogo from "./../../CalendarLogo.svg"
 import ConditionLogo from "./../../ConditionLogo.svg"
 import AlarmAlert from './AlarmAlert';
+import { useState } from 'react';
 function StatusGrid() {
+    const [Alaram, setAlaram] = useState(true);
+    const [callibarate, setcallibarate] = useState(false);
+    const [config, setconfig] = useState(false);
+    const [sampleReport, setsampleReport] = useState(false);
+    const [factoryReset, setfactoryReset] = useState(false);
     return (
         <div className="control-container" >
         <div className="add-dev-head">Device status <span style={{fontSize:"14px",fontWeight:"400",marginLeft:"10px"}}>Last Updated <b>10 secs ago</b></span></div>
@@ -67,18 +73,18 @@ function StatusGrid() {
             </div>            </div>
         </div>
         <div className="control-btn-tray">
-        <button className="control-btns1"> Set Alarm </button>
-        <button className="control-btns"> Calibarate </button>
-        <button className="control-btns"> Configure Wifi </button>
-        <button className="control-btns">Sample's Report</button>
-        <button className="control-btns"> Factory Reset </button>
+        <button className={Alaram?"control-btns1":"control-btns"} onClick={()=>{setAlaram(true);setcallibarate(false);setconfig(false);setfactoryReset(false);setsampleReport(false);}}> Set Alarm </button>
+        <button className={callibarate?"control-btns1":"control-btns"}  onClick={()=>{setAlaram(false);setcallibarate(true);setconfig(false);setfactoryReset(false);setsampleReport(false);}}> Calibarate </button>
+        <button className={config?"control-btns1":"control-btns"}  onClick={()=>{setAlaram(false);setcallibarate(false);setconfig(true);setfactoryReset(false);setsampleReport(false);}}> Configure Wifi </button>
+        <button className={sampleReport?"control-btns1":"control-btns"}  onClick={()=>{setAlaram(false);setcallibarate(false);setconfig(false);setfactoryReset(false);setsampleReport(true);}}>Sample's Report</button>
+        <button className={factoryReset?"control-btns1":"control-btns"}  onClick={()=>{setAlaram(false);setcallibarate(false);setconfig(false);setfactoryReset(true);setsampleReport(false);}}> Factory Reset </button>
          </div>
-         {/* <AlarmAlert/>
-         <ConfirmAlert/>
-         <ConfigWifi/> */}
-         <SetpH/>
+         {Alaram?<SetpH/>:null}
+         {config?<ConfigWifi/>:null}
+         {callibarate?"calibarate":null}
+         {factoryReset?"factortreset":null}
+         {sampleReport?"sampleReport":null}
         </div>
-        // </div>
     )
 }
 
