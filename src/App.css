@@ -588,6 +588,17 @@ ul li {
   padding-left: 15px;
   padding-bottom: 20px;
 }
+.sample-report {
+  border: 1px solid #dddddd;
+  height: 190px;
+  width: 295px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 23px;
+  padding: 15px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
 .config-wifi {
   border: 1px solid #dddddd;
   width: 350px;
@@ -609,7 +620,19 @@ ul li {
   margin-top: 10px;
   display: flex;
   justify-content: space-evenly;
-  /* height: 40px; */
+}
+.sample-report-btn-area {
+  margin-top: 10px;
+  display: flex;
+  width: 220px;
+  justify-content: space-evenly;
+}
+.sample-report-btn-area2 {
+  margin-top: 60px;
+  margin-left: 70px;
+  display: flex;
+  width: 220px;
+  justify-content: space-evenly;
 }
 .add-device-btn2 {
   flex: 48%;
@@ -619,6 +642,19 @@ ul li {
   border-radius: 5px;
   cursor: pointer;
   padding: 5px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.sample-report-btn2 {
+  flex: 48%;
+  background-color: #ef4f23;
+  color: white;
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px;
   font-size: 14px;
   line-height: 16px;
   font-weight: 500;
@@ -733,6 +769,18 @@ ul li {
   line-height: 16px;
   font-weight: 500;
   padding: 10px;
+}
+.sample-report-btn1 {
+  flex: 48%;
+  color: #ef4f23;
+  background-color: white;
+  border: 1.5px solid #ef4f23;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  padding: 8px;
 }
 .add-dev-container,
 .control-container {

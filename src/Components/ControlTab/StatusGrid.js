@@ -10,6 +10,7 @@ import CalendarLogo from "./../../CalendarLogo.svg"
 import ConditionLogo from "./../../ConditionLogo.svg"
 import AlarmAlert from './AlarmAlert';
 import { useState } from 'react';
+import SampleReport from './SampleReport';
 function StatusGrid() {
     const [Alaram, setAlaram] = useState(true);
     const [callibarate, setcallibarate] = useState(false);
@@ -83,7 +84,7 @@ function StatusGrid() {
          {config?<ConfigWifi/>:null}
          {callibarate?"calibarate":null}
          {factoryReset?"factortreset":null}
-         {sampleReport?"sampleReport":null}
+         {sampleReport?<SampleReport/>:null}
         </div>
     )
 }
