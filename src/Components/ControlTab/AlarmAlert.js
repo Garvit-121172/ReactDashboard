@@ -9,10 +9,6 @@ function AlarmAlert() {
         </div>
         <p style={{textAlign:"left",fontWeight:"400",marginBottom:"0px",paddingBottom:"0px"}}>The pH value measured by pH Sensor 4 exceeded limits.</p>
         <button className="alarm-alert-btn">Turn off Alarm</button> 
-
-            
-             
-            
         </div>
     )
 }

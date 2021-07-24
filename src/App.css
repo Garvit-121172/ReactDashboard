@@ -599,6 +599,34 @@ ul li {
   padding-left: 15px;
   padding-bottom: 20px;
 }
+.callibarate {
+  border: 1px solid #dddddd;
+  height: 190px;
+  width: 295px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 23px;
+  padding: 15px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+.calib-items {
+  font-size: "12px";
+  font-weight: "400";
+  text-align: "left";
+  color: "#B1B1B1";
+  margin-bottom: 0;
+  padding: 0;
+  background-color: #2196f3;
+}
+.item-box {
+  display: block;
+  background-color: #11d019;
+  padding: 0;
+  padding-bottom: 0;
+  list-style-type: circle;
+  text-align: left;
+}
 .config-wifi {
   border: 1px solid #dddddd;
   width: 350px;
